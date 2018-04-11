@@ -477,6 +477,327 @@ footer p {
 }
 
 
+@media (min-width: 641px) {
+  html {
+    font-size: 6vw;
+  }
+  .top {
+    background-image: url('../images/tablet/background_top.png');
+    background-size: cover;
+  }
+
+  .top .logo_text {
+    width: 26%;
+    margin-top: 5%;
+    margin-bottom: 3.5em;
+  }
+
+  .top h1 {
+    margin-top: 0;
+    margin-left: 11%;
+    margin-bottom: 0;
+    font-size: 1.35rem;
+    letter-spacing: 4px;
+    line-height: 1.1;
+  }
+  .top h1 span {
+    display: block;
+    margin-left: 16%;
+    margin-top: 0.2em;
+    margin-bottom: 0.1em;
+    padding: 0;
+  }
+  .market-buttons {
+    justify-content: center;
+    margin-top: 6.6em;
+    margin-bottom: 2.05em;
+  }
+  .market-button {
+    width: 40%;
+    font-size: 0.3rem;
+    letter-spacing: 0.3px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .market-button:last-child {
+    margin-left: 2.5em;
+  }
+  .market-button_text {
+    width: 70%;
+    margin-left: 2.5em;
+  }
+  .market-button:last-child .market-button_text {
+    margin-left: 4em;
+  }
+  .market-button_text span {
+    display: block;
+    margin-bottom: 0.1em;
+    padding-top: 0.4em;
+  }
+  .market-button span,
+  .market-button strong {
+    margin-left: 5em;
+    letter-spacing: 0.5px;
+  }
+  .market_icon {
+    width: 6vw;
+  }
+  .athletes {
+    position: relative;
+  }
+  .no-tablet {
+    display: none;
+  }
+  .kicker {
+    margin: 0;
+    width: 62vw;
+    position: absolute;
+    left: -21%;
+    top: 12%;
+    z-index: 1;
+  }
+  .football-fallback {
+    width: 62vw;
+  }
+  .athletes_list li:first-child {
+    background: none;
+  }
+  .athletes h2 {
+    font-size: 1.7em;
+    margin-left: 38%;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+
+  }
+  .athletes h3 {
+    font-size: 0.7em;
+    margin-left: 1.2em;
+    margin-top: 1.4em;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  .athletes li {
+    padding-left: 37%;
+    padding-top: 0;
+    padding-bottom: 1.5em;
+  }
+  .athletes li h3::before {
+    font-size: 0.4rem;
+    font-weight: bold;
+    left: -1.7em;
+    top: 0.1em;
+  }
+  .athletes li h3::after {
+    left: -1em;
+    top: 0.8em;
+    width: 0.7em;
+  }
+  .athletes p {
+    font-size: 0.35em;
+    margin-left: 0.4em;
+    margin-top: 1.2em;
+    letter-spacing: 0.7px;
+    width: 90%;
+    line-height: 1.8;
+  }
+  .athletes li:nth-of-type(2) {
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+  }
+  .athletes li:not(:first-of-type) h3 {
+    margin-top: 0;
+  }
+  .athletes li:nth-of-type(2) p {
+    letter-spacing: 0.7px;
+  }
+  .athletes li:last-of-type {
+    padding-top: 0.7em;
+    padding-bottom: 1.2em;
+  }
+  .athletes li:last-of-type p {
+    width: 95%;
+  }
+
+  .basketballer {
+    margin: 0;
+    width: 89vw;
+    position: absolute;
+    right: -32.5%;
+    top: 4%;
+    z-index: 1;
+  }
+  .basketball-fallback {
+    width: 89vw;
+  }
+
+  .bball h2,
+  .bball li {
+    margin-left: 0;
+    padding-left: 3.7%;
+  }
+  .bball h2 {
+    margin-top: 0.85em;
+  }
+  .bball li:first-of-type {
+    padding-bottom: 0.8em;
+  }
+  .bball li:last-of-type {
+    background-color: #090c35;
+  }
+  .bball li:last-of-type h3::before {
+    color: #8765dd;
+  }
+  .bball li h3::before {
+    left: -1.75em;
+  }
+  .bball li h3::after {
+    left: -1em;
+  }
+  .bball h3 {
+    margin-top: 1.3em;
+    margin-left: 1.1em;
+    letter-spacing: 1.3px;
+  }
+  .bball p {
+    width: 55%;
+    margin-left: 0.2em;
+    line-height: 1.75;
+  }
+  .bball li:nth-of-type(2) {
+    padding-top: 1.3em;
+    padding-bottom: 1.4em;
+  }
+  .bball li:nth-of-type(2) h3::before {
+    left: -1.7em;
+    top: 0.1em;
+    font-size: 0.55em;
+  }
+  .bball li:nth-of-type(2) h3::after {
+    top: 0.75em;
+    left: -0.95em;
+  }
+  .bball li:nth-of-type(2) p {
+    margin-left: 0.3em;
+  }
+  .bball li:last-of-type {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .bball li:last-of-type p {
+    letter-spacing: 1.8px;
+    width: 60%;
+  }
+
+  .action_pic {
+    width: 100%;
+    min-height: 1px;
+  }
+
+  .action li {
+    padding-bottom: 1.7em;
+  }
+  .action_text h2 {
+    font-size: 6em;
+  }
+  .action li::before {
+    font-size: 0.5em;
+    letter-spacing: 1px;
+    color: white;
+    padding: 1.8em;
+    padding-top: 1.6em;
+    padding-bottom: 2.3em;
+    padding-left: 1.9em;
+    left: 4.5%;
+    top: 54.5%;
+  }
+  .action li::after {
+    top: 61.8%;
+    left: 10.5%;
+    width: 0.45em;
+    height: 5px;
+  }
+  .action h3 {
+    margin-left: 0.4em;
+    letter-spacing: 0.5px;
+    margin-top: 0.8em;
+    margin-bottom: 0;
+  }
+
+  .action li p {
+    font-size: 0.5em;
+    padding-right: 0;
+    margin-left: 1.5em;
+    letter-spacing: 1.65px;
+    width: 90%;
+  }
+  .action li:nth-of-type(2) {
+    padding-bottom: 1.85em;
+  }
+  .action li:nth-of-type(2) h3 {
+    margin-top: 0.68em;
+  }
+  .action li:nth-of-type(2)::before {
+    top: 53.5%;
+  }
+  .action li:nth-of-type(2)::after {
+    top: 60.8%;
+  }
+  .action li:nth-of-type(2) p {
+    margin-top: 0.9em;
+  }
+  .action li:last-of-type {
+    padding-bottom: 1.95em;
+  }
+  .action li:last-of-type h3 {
+    margin-top: 0.7em;
+  }
+  .action li:last-of-type::before {
+    top: 51.5%;
+  }
+  .action li:last-of-type::after {
+    top: 58.8%;
+  }
+  .action li:last-of-type p {
+    margin-top: 0.9em;
+    width: 85%;
+    line-height: 1.2;
+  }
+  footer {
+    background-image: url('../images/tablet/background_footer.png');
+    background-size: cover;
+  }
+
+  footer .logo_pic {
+    margin-top: 2.7em;
+    width: 17vw;
+    height: 17.5vw;
+  }
+  footer .logo_pic_svg {
+    margin-top: 17%;
+    height: 66%;
+  }
+  footer h2 {
+    font-size: 1.7em;
+    margin-bottom: 0;
+    letter-spacing: 5.5px;
+    margin-top: 0.85em;
+  }
+  footer p {
+    text-transform: uppercase;
+    margin-top: 0.2em;
+    font-size: 0.75em;
+    letter-spacing: 1px;
+  }
+
+  footer .market-buttons {
+    margin-top: 5.45em;
+    margin-bottom: 1.3em;
+  }
+  footer .logo_text {
+    width: 26.9%;
+    margin-bottom: 0.25em;
+  }
+}
 
 
 @media (min-width: 961px) {
