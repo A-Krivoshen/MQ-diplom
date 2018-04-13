@@ -47,7 +47,7 @@ ol {
 }
 
 .logo_text_svg {
-  string: white;
+  stroke: white;
 }
 .logo_text_svg_text {
   fill: white;
@@ -231,7 +231,7 @@ footer {
 
 .logo_pic_svg {
   width: 80%;
-  string: #ffffff;
+  stroke: #ffffff;
 }
 
 footer h2 {
@@ -293,8 +293,9 @@ footer p {
   }
   .market_icon {
     width: 7vw;
+    height: 7vw;
     margin-left: 2px;
-  }
+      }
 
 
 
@@ -308,6 +309,7 @@ footer p {
   }
   .kicker,
   .football-fallback {
+    min-height: 1px;
     margin-top: 0;
     width: 60.5vw;
 
@@ -360,6 +362,7 @@ footer p {
   .basketball-fallback {
     margin-left: 0.2em;
     width: 93vw;
+    min-height: 1px;
     z-index: 1;
   }
   .bball h2 {
@@ -945,7 +948,10 @@ footer p {
   .bball h2 {
     margin-left: 12.7%;
   }
-  
+
+  .desktop {
+        display: unset;
+       }
   .bball_list li {
     padding-left: 0;
   }
