@@ -138,7 +138,7 @@ body {
   }
 }
 
-.link-logo {
+.logo_text {
   display: block;
 }
 
@@ -541,7 +541,7 @@ body {
 
 .athlets-list,
 .players-list,
-.interaction-list {
+.cooperation-list {
   margin: 0;
   padding-left: 0;
 
@@ -934,27 +934,27 @@ body {
 
 
 
-.container.interaction {
+.container.cooperation {
   width: 100%;
   padding-bottom: 0;
 }
 
-.interaction-item {
+.cooperation-item {
   width: 100%;
 
   background-color: #ffffff;
 }
 
-.interaction-view img {
+.cooperation-view img {
   display: block;
   width: 100%;
 }
 
-.interaction-item .wrapper {
+.cooperation-item .wrapper {
   padding-top: 0;
 }
 
-.interaction-header {
+.cooperation-header {
   position: relative;
   margin-bottom: 0;
 
@@ -964,7 +964,7 @@ body {
   color: #e7e7e7;
 }
 
-.interaction-header:before {
+.cooperation-header:before {
   position: absolute;
   display: inline-block;
   font-size: 14px;
@@ -973,19 +973,19 @@ body {
   border-bottom: 0.4rem solid #8f7bc8;
   z-index: 1;
 }
-.interaction-item:first-child .interaction-header:before {
+.cooperation-item:first-child .cooperation-header:before {
   content: "01";
 }
 
-.interaction-item:nth-child(2) .interaction-header:before {
+.cooperation-item:nth-child(2) .cooperation-header:before {
   content: "02";
 }
 
-.interaction-item:last-child .interaction-header:before {
+.cooperation-item:last-child .cooperation-header:before {
   content: "03";
 }
 
-.interaction-header:after {
+.cooperation-header:after {
   position: absolute;
 
   background-color: #5e42b0;
@@ -993,7 +993,7 @@ body {
   content: '';
 }
 
-.interaction-content {
+.cooperation-content {
   font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 1.3;
@@ -1001,16 +1001,16 @@ body {
 
 @media (max-width: 640px) {
 
-  .interaction-header {
+  .cooperation-header {
     font-size: 28px;
   }
 
-  .interaction-header:before {
+  .cooperation-header:before {
     top: -58px;
     left: 27px;
   }
 
-  .interaction-header:after {
+  .cooperation-header:after {
     top: -82px;
     left: 1px;
 
@@ -1018,74 +1018,74 @@ body {
     height: 70px;
   }
 
-  .interaction-item:first-child  .wrapper {
+  .cooperation-item:first-child  .wrapper {
     padding-bottom: 61px;
     }
 
-  .interaction-item:nth-child(2)  .wrapper {
+  .cooperation-item:nth-child(2)  .wrapper {
     padding-bottom: 62px;
   }
 
-  .interaction-item:last-child .wrapper {
+  .cooperation-item:last-child .wrapper {
     padding-bottom: 50px;
   }
 
-  .interaction-item:first-child .interaction-header {
+  .cooperation-item:first-child .cooperation-header {
     margin-top: 21px;
   }
 
-  .interaction-item:nth-child(2) .interaction-header,
-  .interaction-item:last-child .interaction-header {
+  .cooperation-item:nth-child(2) .cooperation-header,
+  .cooperation-item:last-child .cooperation-header {
     margin-top: 24px;
     }
 
-  .interaction-item .interaction-content {
+  .cooperation-item .cooperation-content {
     margin-top: 13px;
   }
 }
 
 @media (min-width: 641px) {
 
-  .interaction-header {
+  .cooperation-header {
     font-size: 8rem;
     letter-spacing: normal;
   }
 
-  .interaction-content {
+  .cooperation-content {
     font-size: 2.4rem;
   }
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
 
-  .interaction-item .wrapper {
+  .cooperation-item .wrapper {
     width: 88%;
     margin: 0 4%;
   }
 
-  .interaction-item:first-child .wrapper {
+  .cooperation-item:first-child .wrapper {
     padding-top: 58px;
     padding-bottom: 72px;
   }
 
-  .interaction-item:nth-child(2) .wrapper {
+  .cooperation-item:nth-child(2) .wrapper {
     padding-top: 47px;
     padding-bottom: 80px;
   }
 
-  .interaction-item:last-child .wrapper {
+  .cooperation-item:last-child .wrapper {
     padding-top: 47px;
     padding-bottom: 82px;
   }
 
-  .interaction-header:before {
+  .cooperation-header:before {
     top: -108px;
     left: 46px;
 
     font-size: 24px;
   }
 
-  .interaction-header:after {
+  .cooperation-header:after {
     top: -141px;
     left: 2px;
 
@@ -1093,11 +1093,11 @@ body {
     height: 116px;
   }
 
-  .interaction-header {
+  .cooperation-header {
     margin-top: 0;
   }
 
-  .interaction-item .interaction-content {
+  .cooperation-item .cooperation-content {
     margin-top: 8px;
     letter-spacing: 1.2px;
   }
@@ -1105,51 +1105,51 @@ body {
 
 @media (min-width: 961px)  {
 
-  .interaction-item {
+  .cooperation-item {
     display: flex;
     flex-wrap: nowrap;
   }
 
-  .interaction-view {
+  .cooperation-view {
     width: 50%;
   }
 
-  .interaction-header {
+  .cooperation-header {
     margin-top: 0;
   }
 
-  .interaction-header:before {
+  .cooperation-header:before {
     font-size: 2.4rem;
   }
 
-  .interaction-item:first-child .interaction-header:before,
-  .interaction-item:last-child .interaction-header:before {
+  .cooperation-item:first-child .cooperation-header:before,
+  .cooperation-item:last-child .cooperation-header:before {
     top: 3.2rem;
     left: -13.8rem;
   }
 
-  .interaction-item:nth-child(2) .interaction-header:before {
+  .cooperation-item:nth-child(2) .cooperation-header:before {
     top: 3.3rem;
     right: calc(-39.7vw + 57.1rem);
   }
 
-  .interaction-header:after {
+  .cooperation-header:after {
     width: 16.8rem;
     height: 15.5rem;
   }
 
-  .interaction-item:first-child .interaction-header:after,
-  .interaction-item:last-child .interaction-header:after {
+  .cooperation-item:first-child .cooperation-header:after,
+  .cooperation-item:last-child .cooperation-header:after {
     top: -2.3rem;
     left: -20.6rem;
   }
 
-  .interaction-item:nth-child(2) .interaction-header:after {
+  .cooperation-item:nth-child(2) .cooperation-header:after {
     top: -2.3rem;
     right: calc(-38.4vw + 47.8rem);
   }
 
-  .interaction-item .wrapper{
+  .cooperation-item .wrapper{
     width: 37%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -1158,47 +1158,47 @@ body {
     align-content: center;
   }
 
-  .interaction-item:first-child .wrapper,
-  .interaction-item:last-child .wrapper {
+  .cooperation-item:first-child .wrapper,
+  .cooperation-item:last-child .wrapper {
     margin-left: 12.4rem;
   }
 
-  .interaction-item:nth-child(2) .wrapper {
+  .cooperation-item:nth-child(2) .wrapper {
     padding-left: 3%;
   }
 
-  .interaction-item:nth-child(2) .interaction-view {
+  .cooperation-item:nth-child(2) .cooperation-view {
     order: 1;
   }
 
-  .interaction-item:first-child .interaction-header {
+  .cooperation-item:first-child .cooperation-header {
     margin-bottom: 13%;
   }
 
-  .interaction-item:nth-child(2) .interaction-header {
+  .cooperation-item:nth-child(2) .cooperation-header {
     margin-bottom: 4.7rem;
   }
 
-  .interaction-item:last-child .interaction-header {
+  .cooperation-item:last-child .cooperation-header {
     margin-bottom: 8.1rem;
   }
-  .interaction-content {
+  .cooperation-content {
     margin: 0;
   }
 
-  .interaction-item:first-child .interaction-content,
-  .interaction-item:nth-child(2) .interaction-content {
+  .cooperation-item:first-child .cooperation-content,
+  .cooperation-item:nth-child(2) .cooperation-content {
     padding-right: 22%;
   }
 }
 
 @media (min-width: 1921px) {
 
-  .interaction-item:nth-child(2) .interaction-header:before {
+  .cooperation-item:nth-child(2) .cooperation-header:before {
     right: -19.2rem;
   }
 
-  .interaction-item:nth-child(2) .interaction-header:after {
+  .cooperation-item:nth-child(2) .cooperation-header:after {
     right: -26rem;
   }
 }
